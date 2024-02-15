@@ -4,4 +4,8 @@ shift = 3
 def vigenere(message,key):
    alphabet = 'abcdefghijklmnopqrstuvwxyz'
    encrypted_text = ''
-   pass
+   
+   for char in message.lower():
+      if char == ' ':
+         encrypted_text+=char
+      
