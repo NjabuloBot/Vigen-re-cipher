@@ -8,4 +8,5 @@ def vigenere(message,key):
    for char in message.lower():
       if char == ' ':
          encrypted_text+=char
-      
+      else:
+         index = alphabet.find(char)
