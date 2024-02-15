@@ -12,5 +12,5 @@ def vigenere(message,key):
          encrypted_text+=char
       else:
          key_char = key[key_index % len(key)]
-         ke_index+=1
+         key_index+=1
          index = alphabet.find(char)
