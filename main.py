@@ -31,5 +31,5 @@ def decrypt(message,key):
 
 print(f'Encrypted text: {text}')
 print(f'Key: {custom_key}')
-# decryption = decrypt(encryption, custom_key)
+decryption = decrypt(text, custom_key)
 # print(decryption)
