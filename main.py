@@ -22,6 +22,13 @@ def vigenere(message,key,direction = 1):
 
    return final_message
 
+def encrypt(message,key):
+   pass
+
+def decrypt():
+   pass
+
+
 encryption = vigenere(text,custom_key)
 print(encryption)
 decryption = vigenere(encryption, custom_key, -1)
